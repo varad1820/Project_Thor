@@ -1,0 +1,10 @@
+#ifndef BOOKENUMAVALIABILITY_H
+#define BOOKENUMAVALIABILITY_H
+
+
+enum class BookAvaliablity{
+    AVALIABLE,
+    NOTAVALIABLE
+};
+
+#endif // BOOKENUMAVALIABILITY_H

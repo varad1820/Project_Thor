@@ -9,3 +9,7 @@ Dog::~Dog()
 {
     std::cout << "Destructor for dog " << dog_name << " called" << std::endl;;
 }
+std::ostream &operator<<(std::ostream &os, const Dog &rhs) {
+    os << "dog_name: " << rhs.dog_name;
+    return os;
+}
